@@ -57,3 +57,15 @@ And some cources accomplished:
 
 + [codecademy](https://www.codecademy.com/profiles/rhryhoryk)
 + [htmlacademy](https://htmlacademy.ru/profile/rhryhoryk)
+
+## Education:
+
++ #### SkillUp
+  + Front-end Developer
+  + 2019-2019
++ #### SkillUp
+  + Preparatory course (Web-technology / SQL Database)
+  + 2018-2018
++ #### Minsk State Linguistic University
+  + modern foreign languages (interpretation)
+  + 2010-2014

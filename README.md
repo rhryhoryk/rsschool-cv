@@ -1,2 +1,2 @@
-# rsschool-cv
-Markdown &amp; Git / HTML, CSS &amp; Git Basics
+
+[my cv link](https://rhryhoryk.github.io/rsschool-cv/cv "click - be not afraid")

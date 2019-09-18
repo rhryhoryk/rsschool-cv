@@ -1,5 +1,6 @@
 # Raman Hryhoryk
 
+
 ## Contact Info:
 
 + **Telegram**: rhryhoryk
@@ -14,6 +15,7 @@ I do not afraid of learning.  Every single minute I try to catch new information
 I absorb everything like a sponge, may be not so fast as I'd like to. But if I'm familiar with something, it will be strong knowledge.
 My goal is not lag behind pace of modern life, and realize myself as a sought-after specialist in the modern profession.
 
+
 ## Skills:
 
 + **HTML/HTML5**
@@ -26,6 +28,7 @@ My goal is not lag behind pace of modern life, and realize myself as a sought-af
 + *SCSS*
 + *Adobe Photoshop*
 + *Inkscape*
+
 
 ## Code examples:
 
@@ -43,9 +46,7 @@ var getMaxElement = function (arr) {
 
 ## Experience:
 
-
 I do not have commercial experience. 
-
 
 But I have some pet-projects: 
 
@@ -57,6 +58,7 @@ And some cources accomplished:
 
 + [codecademy](https://www.codecademy.com/profiles/rhryhoryk)
 + [htmlacademy](https://htmlacademy.ru/profile/rhryhoryk)
+
 
 ## Education:
 

@@ -40,3 +40,20 @@ var getMaxElement = function (arr) {
   return maxElement;
 };
 ```
+
+## Experience:
+
+
+I do not have commercial experience. 
+
+
+But I have some pet-projects: 
+
++ [film app](https://rhryhoryk.github.io/FilmApp)
++ [vynilizer](https://rhryhoryk.github.io/Vynilizer)
+
+
+And some cources accomplished: 
+
++ [codecademy](https://www.codecademy.com/profiles/rhryhoryk)
++ [htmlacademy](https://htmlacademy.ru/profile/rhryhoryk)

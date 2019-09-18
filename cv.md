@@ -29,7 +29,8 @@ My goal is not lag behind pace of modern life, and realize myself as a sought-af
 
 ## Code examples:
 
-```var getMaxElement = function (arr) {
+```
+var getMaxElement = function (arr) {
   var maxElement = arr[0];
   for (var i = 0; i < arr.length; i++) {
     if (maxElement < arr[i]) {

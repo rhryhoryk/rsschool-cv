@@ -13,3 +13,16 @@ Now I realy in HTML and CSS, have stronge knowlege of basic JS, can do stuff usi
 I do not afraid of learning.  Every single minute I try to catch new information. 
 I absorb everything like a sponge, may be not so fast as I'd like to. But if I'm familiar with something, it will be strong knowledge.
 My goal is not lag behind pace of modern life, and realize myself as a sought-after specialist in the modern profession.
+
+## Skills:
+
++ **HTML/HTML5**
++ **CSS/CSS3**
++ **JavaScript**
++ **GIT**
++ *jQuery*
++ *SQL*
++ *Bootstrap*
++ *SCSS*
++ *Adobe Photoshop*
++ *Inkscape*

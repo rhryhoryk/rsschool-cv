@@ -69,3 +69,7 @@ And some cources accomplished:
 + #### Minsk State Linguistic University
   + modern foreign languages (interpretation)
   + 2010-2014
+
+  ## English:
+
+  - [x] B2 - upper intermediate

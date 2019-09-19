@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ font-family: 'Inconsolata', monospace;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(2, 2fr) / repeat(2,2fr);
+  grid-gap: 10px;
+  grid-template-areas:  "skills experience"
+                        "code education";
+  margin: 10px auto;
+}
+
+.box {
+  padding: 10px;
+  border: 2px solid #152D2E;
+  border-radius: 5px;
+}
+
+.box h2 {
+  color: #5D7772;
+}
+
+/* ------------------------------------------------header------------------------------------------------------ */
+
+header {
+  background-color: #43616F;
+}
+
+header h1, header h2 {
+  color: #B6E2D3;
+}
+
+.name h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info {
+  flex-direction: column;
+  width: 550px;
+  margin-top: 20px;
+}
+
+.info p {
+  text-align: justify;
+  font-size: 18px;
+  color: #152D2E;
+}
+
+/* ---------------------------------------main------------------------------------------------------------ */
+main {
+  flex-grow: 1;
+}
+
+.skills     {grid-area: skills;}
+.code       {grid-area: code;}
+.experience {grid-area: experience;}
+.education  {grid-area: education;}
+
+
+.skills ul {
+  margin: 25px 0 45px;
+  justify-content: space-between;
+}
+
+.skills ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.skills__strongKnowledge li {
+  padding: 5px;
+  font-size: 18px;
+  background-color: #43616F;
+  color: #B6E2D3;
+}
+
+.skills__softKnowledge li {
+  padding: 3px;
+  font-size: 14px;
+  background-color: #B6E2D3;
+  color: #43616F;
+}
+
+.code code,
+.education__institution  li {
+  color: #5D7772;
+}
+
+.experience ul {
+  margin: 15px;
+}
+
+.experience__item {
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 24px;
+  list-style: none;
+}
+
+.experience__item a {
+  text-decoration: none;
+  color: #152D2E;
+}
+
+.experience__item a::before {
+  content: "";
+  position: relative;
+  right: 15px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #152D2E;
+}
+
+.experience__item a:hover::before {
+ background-color: #5D7772;
+ animation: bee-bop 1s linear;
+}
+
+.education > ul,
+.education__institution  li {
+  margin-left: 20px;
+}
+
+.education h3 {
+  color: #152D2E
+}
+/* -------------------------------------------footer------------------------------------------------------ */
+
+footer {
+  flex-shrink: 0;
+  height: 10vh;
+  background-color: #43616F;
+}
+
+@keyframes bee-bop {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

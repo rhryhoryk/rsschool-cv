@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>rsschool-cv</title>
+</head>
+<body>
+
+  <header>
+    <div class="wrapper flex">
+      <div class="name">
+        <img class="name__photo" src="cv-photo.png" alt="cv-photo">
+        <h1>Raman Hryhoryk</h1>
+      </div>
+      <div class="info flex">
+        <h2 class="info__heading">Contact Info:</h2>
+        <ul class="info__list info__list--contact">
+          <li><b>Telegram:</b> rhryhoryk</li>
+          <li><b>Skype:</b> live:ramanhryhoryk</li>
+          <li><b>Email:</b> ramanhryhoryk@gmail.com</li>
+        </ul>
+        <p>I am a beginner front-end developer. <br>
+            I become familia with web development about a year ago. At this period of time I've attended courses and have studed by my self. 
+            Now I realy in HTML and CSS, have stronge knowlege of basic JS, can do stuff using JQuery and Bootstrap.
+            I do not afraid of learning.  Every single minute I try to catch new information. 
+            I absorb everything like a sponge, may be not so fast as I'd like to. But if I'm familiar with something, it will be strong knowledge.
+            My goal is not lag behind pace of modern life, and realize myself as a sought-after specialist in the modern profession.</p>
+      </div>
+     </div>
+  </header>
+
+  <main class="wrapper grid">
+    <div class="skills box">
+      <h2>Skills:</h2>
+      <ul class="skills__strongKnowledge flex">
+        <li>HTML/HTML5</li>
+        <li>CSS/CSS3</li>
+        <li>JavaScript</li>
+        <li>GIT</li>
+      </ul>
+      <ul class="skills__softKnowledge flex">
+        <li>SQL</li>
+        <li>jQuery</li>
+        <li>Bootstrap</li>
+        <li>SCSS</li>
+        <li>Adobe Photoshop</li>
+        <li>Inkscape</li>
+      </ul>
+    </div>
+    <div class="code box">
+      <h2>Code example:</h2>
+      <pre><code>
+        var getMaxElement = function (arr) {
+          var maxElement = arr[0];
+          for (var i = 0; i < arr.length; i++) {
+            if (maxElement < arr[i]) {
+              maxElement = arr[i];
+            }
+          }
+          return maxElement;
+        };
+      </code></pre>
+    </div>
+    <div class="experience box flex">
+      <div>
+        <h2>Pet-projects</h2>
+        <ul class="pet-projects">
+          <li class="experience__item experience__item--fillapp"><a href="https://rhryhoryk.github.io/FilmApp" target="_blank">fill app</a></li>
+          <li class="experience__item experience__item--vynilizer"><a href="https://rhryhoryk.github.io/Vynilizer" target="_blank">vynilizer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Courses-badges</h2>
+        <ul class="courses-badges"> 
+          <li class="experience__item experience__item--codecademy"><a href="https://www.codecademy.com/profiles/rhryhoryk" target="_blank">codecademy</a></li>
+          <li class="experience__item experience__item--htmlacademy"><a href="https://htmlacademy.ru/profile/rhryhoryk" target="_blank">htmlacademy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="education box">
+      <h2>Education:</h2>
+      <ul>
+        <li>
+          <ul class="education__institution"> 
+            <h3>SkillUp</h3>
+            <li>Front-end Developer</li>
+            <li>2019-2019</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution"> 
+            <h3>SkillUp</h3>
+            <li>Preparatory course (Web-technology / SQL Database)</li>
+            <li>2018-2018</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution">
+            <h3>Minsk State Linguistic University</h3> 
+            <li>modern foreign languages (interpretation)</li>
+            <li>2010-2014</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution">
+            <h3>English</h3> 
+            <li>B2 - upper intermediate</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer> </footer>
+</body>
+</html>

@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .wrapper {
   width: 1024px;
   margin: 0 auto;
@@ -39,4 +45,16 @@ header {
   text-align: justify;
   font-size: 18px;
   color: #152D2E;
+}
+
+/* ---------------------------------------main------------------------------------------------------------ */
+main {
+  flex-grow: 1;
+}
+
+/* -------------------------------------------footer------------------------------------------------------ */
+footer {
+  flex-shrink: 0;
+  height: 10vh;
+  background-color: #43616F;
 }

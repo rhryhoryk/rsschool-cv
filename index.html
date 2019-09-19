@@ -33,7 +33,88 @@
      </div>
   </header>
 
-  <main></main>
-  <footer></footer>
+  <main class="wrapper grid">
+    <div class="skills box">
+      <h2>Skills:</h2>
+      <ul class="skills__strongKnowledge flex">
+        <li>HTML/HTML5</li>
+        <li>CSS/CSS3</li>
+        <li>JavaScript</li>
+        <li>GIT</li>
+      </ul>
+      <ul class="skills__softKnowledge flex">
+        <li>SQL</li>
+        <li>jQuery</li>
+        <li>Bootstrap</li>
+        <li>SCSS</li>
+        <li>Adobe Photoshop</li>
+        <li>Inkscape</li>
+      </ul>
+    </div>
+    <div class="code box">
+      <h2>Code example:</h2>
+      <pre><code>
+        var getMaxElement = function (arr) {
+          var maxElement = arr[0];
+          for (var i = 0; i < arr.length; i++) {
+            if (maxElement < arr[i]) {
+              maxElement = arr[i];
+            }
+          }
+          return maxElement;
+        };
+      </code></pre>
+    </div>
+    <div class="experience box flex">
+      <div>
+        <h2>Pet-projects</h2>
+        <ul class="pet-projects">
+          <li class="experience__item experience__item--fillapp"><a href="https://rhryhoryk.github.io/FilmApp" target="_blank">fill app</a></li>
+          <li class="experience__item experience__item--vynilizer"><a href="https://rhryhoryk.github.io/Vynilizer" target="_blank">vynilizer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Courses-badges</h2>
+        <ul class="courses-badges"> 
+          <li class="experience__item experience__item--codecademy"><a href="https://www.codecademy.com/profiles/rhryhoryk" target="_blank">codecademy</a></li>
+          <li class="experience__item experience__item--htmlacademy"><a href="https://htmlacademy.ru/profile/rhryhoryk" target="_blank">htmlacademy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="education box">
+      <h2>Education:</h2>
+      <ul>
+        <li>
+          <ul class="education__institution"> 
+            <h3>SkillUp</h3>
+            <li>Front-end Developer</li>
+            <li>2019-2019</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution"> 
+            <h3>SkillUp</h3>
+            <li>Preparatory course (Web-technology / SQL Database)</li>
+            <li>2018-2018</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution">
+            <h3>Minsk State Linguistic University</h3> 
+            <li>modern foreign languages (interpretation)</li>
+            <li>2010-2014</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="education__institution">
+            <h3>English</h3> 
+            <li>B2 - upper intermediate</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer> </footer>
 </body>
 </html>

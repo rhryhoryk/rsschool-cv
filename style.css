@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1, h2 {
+  color: #B6E2D3;
+}
+
+/* ------------------------------------------------header------------------------------------------------------ */
+
+header {
+  background-color: #43616F;
+}
+
+.name h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info {
+  width: 550px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.info p {
+  text-align: justify;
+  font-size: 18px;
+  color: #152D2E;
+}
